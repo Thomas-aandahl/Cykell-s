@@ -99,5 +99,5 @@ while True:
             else:
                 print("Access Denied! Try Again.")
                 lcd.clear()
-                lcd.putstr("wrong kode!")
+                lcd.putstr("Wrong Code!")
                 attempted_password = ""  # Reset to give another chance
